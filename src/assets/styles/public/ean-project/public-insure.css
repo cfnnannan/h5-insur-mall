@@ -1,0 +1,161 @@
+.insure-contaion {
+  position: relative;
+  padding-bottom: 25%;
+}
+.padding {
+  padding: 0.5rem 0.8rem;
+}
+.select-btn {
+  border: 1px solid #c9c9c9;
+  background-color: #f8f8f8;
+  padding: 0.2rem 0.6rem;
+  border-radius: 30px;
+  margin-left: 0.3rem;
+  color: #999;
+  font-size: 1.0rem;
+}
+.home-insure .insure-title {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-insure .insure-title .right {
+  display: flex;
+}
+.home-insure .insure-title .left {
+  font-weight: 600;
+}
+.home-insure .msg-title {
+  text-align: left;
+  color: #999;
+  background-color: #f8f8f8;
+  font-size: 0.9rem;
+}
+.home-insure .insure-msg .judge-msg {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  height: 43px;
+  padding: 0 0.8rem;
+}
+.home-insure .insure-msg .judge-msg label {
+  line-height: 43px;
+}
+.home-insure .insure-msg .judge-msg .right {
+  display: flex;
+  align-items: center;
+}
+.home-insure .insure-msg .judge-msg .right select {
+  font-size: 0.95rem;
+}
+.home-insure .insure-msg .msg-cont .msg label {
+  width: 25%;
+  text-align: left;
+}
+.home-insure .insure-msg .msg-cont .msg input {
+  border: none;
+  margin-left: 0.5rem;
+  width: 75%;
+  text-align: right;
+  height: 40px;
+  padding: 0 0.3rem;
+  font-size: 0.95rem;
+}
+.home-insure .insure-msg .msg-cont .msg .iconfont {
+  color: red;
+}
+.home-insure .insure-msg .msg-cont .msg {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  height: 43px;
+  font-size: 0.95rem;
+  padding: 0 0.8rem;
+}
+.home-insure .insure-msg .msg-cont {
+  background-color: #fff;
+}
+.home-insure .check-info {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.home-insure .check-info .checkbox {
+  border: 1px solid #0c8be7;
+  width: 15px;
+  height: 15px;
+  margin-right: 0.5rem;
+}
+.home-insure .check-info .checkbox .iconfont {
+  color: #0c8be7;
+}
+.home-fixed .left .customer .iconfont {
+  font-size: 1.5rem;
+}
+.home-fixed .left .customer {
+  color: #0c8be7;
+  text-align: center;
+  padding-right: 1.5rem;
+}
+.home-fixed .left .price {
+  border-left: 1px solid #ccc;
+  padding-left: 0.5rem;
+  color: #eb1638;
+  font-weight: 600;
+}
+.home-fixed .left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 54px;
+  width: 55%;
+  border-top: 1px solid #e8e8e8;
+  padding-left: 1.5rem
+}
+.home-fixed .right {
+  width: 40%;
+  border-top: 1px solid #0c8be7
+}
+.home-fixed .right button {
+  background-color: #0c8be7;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  height: 54px;
+  width: 100%
+}
+.home-fixed .right .dis-active {
+  opacity: 0.6;
+}
+.home-fixed {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  font-size: 1.2rem;
+  z-index: 99999;
+}
+.error-msg {
+  position: fixed;
+  bottom: 54px;
+  width: 100%;
+  height: 30px;
+  background-color: #f16363;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+.actived {
+  background-color: #0c8be7;
+  color: #fff;
+  border-color: #0c8be7
+}
+.model-active {
+  color: #fff;
+  background-color: #0c8be7
+}

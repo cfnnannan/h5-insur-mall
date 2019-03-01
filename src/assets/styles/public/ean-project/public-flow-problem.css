@@ -1,0 +1,92 @@
+
+.home-claim {
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  padding: 5% 0;
+}
+.home-claim .home-flow {
+  text-align: left;
+  margin-top: 1.0rem;
+} 
+.home-claim .home-flow .item {
+  display: flex;
+  font-size: 0.95rem;
+  align-items: center;
+  padding: 0 0.8rem 0.5rem 0.8rem;
+}
+.home-claim .home-flow .iconfont {
+  font-size: 1.8rem;
+  margin-right: 0.3rem;
+  background: gradient(linear, left top, left bottom, from(#48a4e6), to(#0c8be7));
+  background-clip: text;
+  background: -webkit-gradient(linear, left top, left bottom, from(#48a4e6), to(#0c8be7));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.home-claim .home-flow .indfo {
+  font-weight: 600;
+}
+.home-claim .contact {
+  text-align: center;
+  border: 1px solid #03acf3;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+}
+.home-matter {
+  background-color: #fff;
+  padding: 1.0rem 0;
+  margin-bottom: 0.5rem;
+}
+.home-matter .matter-contaion {
+  padding: 1.0rem 0.8rem;
+  text-align: left;
+}
+.home-matter .matter-contaion .matter-list {
+  margin-bottom: 3%;
+}
+.home-matter .matter-contaion .matter-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0;
+}
+.home-matter .matter-contaion .matter-title .iconfont {
+  color: #999;
+}
+.home-matter .matter-contaion .matter-title .item {
+  display: flex;
+  align-items: center;
+}
+.matter-contaion .matter-title .item .letter {
+  background-color: #0c8be7;
+  color: #fff;
+  margin-right: 0.3rem;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+}
+.home-matter .matter-contaion .matter-title .item  p {
+  word-wrap: break-word;
+  word-break: normal;
+}
+.home-matter .matter-ans {
+  color: #999;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  font-size: 32rpx;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+}
+.home-matter .matter-active {
+  display: block;
+}
+  

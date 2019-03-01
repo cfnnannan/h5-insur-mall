@@ -1,0 +1,115 @@
+.model-inform {
+  background-color: #fff;
+  text-align: justify;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.model-inform .title {
+  text-align: center;
+  font-size: 1.0rem;
+  padding: 0.5rem 0;
+  line-height: 25px;
+  font-weight: 550;
+  background-color: #0c8be7;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.textarea {
+  width: 94%;
+  min-height: 300px;
+  max-height: 400px;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+  outline: 0;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 24px;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.textarea .title {
+  text-align: center;
+  font-size: 1.0rem;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+.textarea .avow-title {
+  font-size: 1.05rem;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+.textarea .clause-title {
+  text-align: center;
+  line-height: 28px;
+  white-space: nowrap;
+}
+.textarea .clause-title b {
+  font-size: 1.05rem;
+}
+.textarea .title-item {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.textarea .textarea-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #c9c9c9;
+  display: flex;
+  font-size: 0.9rem;
+}
+.textarea .textarea-item > span {
+  padding: 0 0.3rem;
+}
+.textarea .textarea-item .iconfont {
+  font-size: 0.9rem;
+}
+.confirm {
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  color: #0467bb;
+  height: 50px;
+  border-top: 1px solid #c9c9c9;
+  align-items: center;
+}
+.confirm .handel {
+  height: 25px;
+  font-weight: 600;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  color: #0c8be7;
+  display: flex;
+  align-items: center;
+}
+.confirm .handel:last-child {
+  border-left: 1px solid #c9c9c9;
+}
+.confirm .iconfont {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.confirm .handel .iconfont {
+  color: #0c8be7;
+}
+
+/* 底部双按钮 */
+.model-rate {
+  padding: 0;
+  overflow: hidden;
+}
+.model-rate .rate {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #ccc
+}
+.model-rate .rate div {
+  width: 50%;
+  padding: 0.8rem;
+  font-weight: 600;
+}

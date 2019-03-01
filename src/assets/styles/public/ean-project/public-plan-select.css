@@ -1,0 +1,33 @@
+.plan-item:nth-child(3) {
+    margin-right: 0;
+}
+.plan-item {
+    float: left;
+    width: 25.888%;
+    border: 1px solid #0c8be7;
+    color: #0c8be7;
+    border-radius: 8px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 1.05rem;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.plan-active {
+    background-color: #0c8be7;
+    color: #fff;
+    border-color: #0c8be7;
+}
+.plan-contaion .plan-select {
+    text-align: left;
+    color: #999;
+    padding: 0.5rem 0.8rem;
+    background-color: #f8f8f8;
+    font-size: 0.9rem;
+}
+.plan-title {
+    overflow: hidden;
+    background-color:#fff;
+    padding: 0.8rem;
+}
